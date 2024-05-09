@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import { ListItems } from './ListItems';
 import { Filter } from './Filter';
 
-export const TodoList = () => {
+  const TodoList = () => {
     const [item, setItem] = useState('');
     const [newItem, setNewItem] = useState([]);
     const [filter, setFilter] = useState('all');
@@ -60,3 +60,5 @@ export const TodoList = () => {
             </div>  
     );
 };
+
+export default TodoList;
